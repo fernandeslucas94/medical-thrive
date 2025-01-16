@@ -545,12 +545,127 @@
         height: 21.6rem;
 
         background-color: #FFF;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .footer-content-wrapper {
         width: 65.6rem;
         height: 16.8rem;
 
-        border: 1px solid red;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .footer-content-wrapper__container {
+        width: 65rem;
+        height: 10.6rem;
+
+        display: flex;
+    }
+
+    .footer-items-wrapper {
+        width: 9.2rem;
+        height: 10.6rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        margin-left: 1rem;
+    }
+
+    .footer-items-wrapper span {
+        color: var(--text-color);
+        font-weight: 600;
+    }
+
+    .footer-items-wrapper p {
+        color: var(--second-text-color);
+        font-weight: 500;
+    }
+
+    .get-in-touch {
+        width: 26rem;
+        height: 9rem;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .get-in-touch p {
+        color: var(--text-color);
+
+        font-weight: 600;
+    }
+
+    .phone-text-wrapper {
+        width: 10rem;
+        margin-left: 15rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .map-text-wrapper {
+        height: 2.6rem;
+        width: 28rem;
+
+        text-align: center;
+
+        margin-top: .5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+
+    }
+
+    .email-text-wrapper {
+        width: 15rem;
+
+        margin-left: 12rem;
+        margin-top: .7rem;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .third {
+        width: 11rem;
+    }
+
+    .footer-social-icons-wrapper {
+        width: 100vw;
+        height: 4.6rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-icons-container {
+        width: 65.6rem;
+        height: 4.6rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-icons-container span{
+        color: var(--second-text-color );
+    }
+
+    .icons-container {
+        display: flex;
+        justify-content: space-around;
+
+        width: 8rem;
     }
 }

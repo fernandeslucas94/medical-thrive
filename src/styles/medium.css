@@ -916,4 +916,149 @@
 
         font-size: 1em;
     }
+
+    /* ### FOOTER STYLES ### */
+
+    footer {
+        width: 100vw;
+        height: 21.6rem;
+
+        background-color: #FFF;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-content-wrapper {
+        width: 64rem;
+        height: 16.8rem;
+
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .footer-content-wrapper__container {
+        width: 64rem;
+        height: 10.6rem;
+
+        display: flex;
+    }
+
+    .footer-items-wrapper {
+        width: 9.2rem;
+        height: 10.6rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        margin-left: 1rem;
+    }
+
+    .footer-items-wrapper span {
+        color: var(--text-color);
+        font-weight: 600;
+
+        font-size: .9rem;
+    }
+
+    .footer-items-wrapper p {
+        color: var(--second-text-color);
+        font-weight: 500;
+
+        font-size: .9rem;
+    }
+
+    .get-in-touch {
+        width: 26rem;
+        height: 9rem;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .get-in-touch p {
+        color: var(--text-color);
+
+        font-weight: 600;
+    }
+
+    .get-in-touch img {
+        width: 1.5rem;
+    }
+
+    .phone-text-wrapper {
+        width: 8.6rem;
+        margin-left: 13.5rem;
+
+        font-size: .8rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .map-text-wrapper {
+        height: 2.6rem;
+        width: 24rem;
+
+        font-size: .8rem;
+
+        text-align: center;
+
+        margin-top: .5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+
+    }
+
+    .email-text-wrapper {
+        width: 13rem;
+
+        margin-left: 10.5rem;
+        margin-top: .7rem;
+
+        font-size: .8rem;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .third {
+        width: 11rem;
+    }
+
+    .footer-social-icons-wrapper {
+        width: 100vw;
+        height: 4.6rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-icons-container {
+        width: 59rem;
+        height: 4.6rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-icons-container span{
+        color: var(--second-text-color );
+    }
+
+    .icons-container {
+        display: flex;
+        justify-content: space-around;
+
+        width: 8rem;
+    }
 }
