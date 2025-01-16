@@ -1,0 +1,556 @@
+/* ### RESET CSS AND ROOT ### */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --light-background-color: #FFFFFF;
+    --primary-color: #FC724D;
+    --dange-color: #E74040;
+    --dark-background-color: #26335D;
+    --alert-color: #E77C40;
+    --muted-color: #BDBDBD;
+    --primary-text-color: #FC724D;
+    --second-text-color: #737373;
+    --text-color: #252B42;
+    --faded-primary-color: #F9FDFF;
+    --secondary: #F3CD03;
+    --secondary-color: #0061FF;
+    --light-text-color: #FFFFFF;
+    --success-color: #2DC071;
+    --disabled-element-color: #8EC2F2;
+    --faded-secondary-color-2: #B6D7FF;
+    --light-gray-2: #ECECEC;
+    --danger-text-color: #E74040;
+    --faded-secondary-color-1: #DDEEFE;
+    --success-text-color: #2DC071;
+    --secondary-color-2: #B888F8;
+    --hover-color: #2A7CC7;
+    --light-gray-1: #FAFAFA;
+    --secondary-text-color-1: #0061FF;
+    --secondary-text-color-2: #B888F8;
+    --alert-text-color: #E77C40;
+    --hover-text-color: #2A7CC7;
+    --disabled-element-text-color: #8EC2F2;
+    --muted-text-color: #BDBDBD;
+    --light-text-gray-1: #FAFAFA;
+    --light-text-gray-2: #ECECEC;
+}
+
+@media (min-width: 1921px) {
+     /* ### BODY STYLES ### */
+
+     body {
+        background-color: var(--dark-background-color);
+    }
+    
+    /* ### HEADER STYLES ### */
+    
+    header {
+        width: 100vw;
+        height: 48.5rem;
+    }
+
+    .header-image {
+        width: 100vw;
+        height: 48.5rem;
+    }
+    
+    .upper-menu {
+        /* width: 83.2rem; */
+        width: 70vw;
+        height: 5.6rem;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    
+    .upper-menu p {
+        color: var(--light-text-color);
+        font-weight: 500;
+        font-size: 1.3em;
+    }
+    
+    .upper-nav-menu {
+        width: 54rem;
+        height: 3.6rem;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .upper-nav-menu a {
+        text-decoration: none;
+        color: var(--light-text-color);
+    }
+    
+    .upper-nav-menu a:visited {
+        text-decoration: none;
+        color: var(--light-text-color);
+    }
+    
+    .upper-nav-menu ul {
+        list-style: none;
+        display: inline-flex;
+        gap: 1.5rem;
+    }
+    
+    .upper-nav-menu li {
+        color: var(--light-text-color);
+        font-weight: 500;
+        font-size: 1.1em;
+    
+        cursor: pointer;
+    }
+    
+    .upper-nav-menu li:hover {
+        color: #DDD;
+    }
+    
+    .login-content {
+        width: 14.2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+        margin-right: 1.3rem;
+    }
+    
+    .login-content p {
+        color: var(--light-text-color);
+        font-weight: 500;
+        font-size: 1.1em;
+    
+        cursor: pointer;
+    }
+    
+    .login-content p:hover {
+        color: #DDD;
+    }
+    
+    .login-content span {
+        color: var(--light-text-color);
+        background-color: var(--primary-color);
+    
+        padding: .6rem;
+        width: 7.5rem;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        text-transform: uppercase;
+        font-weight: 500;
+        cursor: pointer;
+    
+        border-radius: .3rem;
+    }
+    
+    .login-content span:hover {
+        background-color: var(--primary-text-color);
+        color: #DDD;
+    }
+
+    .header-container {
+        height: 100%;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        /* display: flex; */
+    }
+    
+    .header-content-wrapper {
+        width: 100vw;
+        height: 42.6rem;
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+        position: absolute;
+    }
+    
+    .header-content-wrapper_text-content__wrapper {
+        height: 42.6rem;
+        width: 50%;
+    
+        display: flex;
+        align-items: center;
+        
+        padding-top: 3.6rem;
+
+        margin-left: 32.5em;
+    }
+
+    .header-content-wrapper_text-image__wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .doctor-image {
+        width: 45rem;
+        height: 100%;
+
+        margin-left: 6.5em;
+    }
+    
+    .header-content-wrapper_text-content {
+        width: 35.8rem;
+        height: 26rem;
+    
+        margin-left: 17.3rem;
+    }
+    
+    #join-us {
+        color: var(--light-text-color);
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+    }
+    
+    .header-content-wrapper_text-content h2 {
+        color: var(--light-text-color);
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    
+    #dental-care-text{
+        color: var(--light-text-color);
+        font-size: 2em;
+        font-weight: 600;
+        line-height: 2.6rem;
+        
+        margin-top: 1.4rem;
+    }
+    
+    .buttons-wrapper {
+        margin-top: 2rem;
+    
+        height: 3.25rem;
+        display: flex;
+    }
+    
+    .join-us-button {
+        background-color: var(--alert-color);
+    
+        height: 3.25rem;
+        width: 8.3rem;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        border-radius: .5rem;
+    
+        color: var(--light-text-color);
+        font-weight: 500;
+    
+        cursor: pointer;
+    }
+    
+    .learn-more-button {
+        width: 10.1rem;
+        height: 3.25rem;
+        
+        border: 1px solid var(--alert-color);
+        border-radius: .5rem;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        color: var(--light-text-color);
+        font-weight: 500;
+    
+        margin-left: .8rem;
+    
+        cursor: pointer;
+    }
+
+    /* ### MAIN SECTION STYLES ### */
+
+
+    /* ### SEE OUR IMPRESSIONS FIRST ### */
+    .see-our-impressions__first {
+        width: 100vw;
+        height: 53.6rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .see-our-impressions__first article {
+        width: 65.2rem;
+        height: 51.3rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title-and-text-wrapper {
+        width: 43.2rem;
+        height: 8.3rem;
+
+        margin-bottom: 6.5rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .title-and-text-wrapper p {
+        color: var(--alert-color);
+        font-weight: 500;
+    }
+
+    .title-and-text-wrapper h2 {
+        color: var(--light-text-color);
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+    .title-and-text-wrapper span {
+        text-align: center;
+        color: var(--light-text-color);
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+    .cards-wrapper {
+        width: 42.9rem;
+        height: 18rem;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .separation-line {
+        height: .1rem;
+        width: 3.1rem;
+
+        background-color: var(--dange-color);
+    }
+
+    .cards-wrapper .first-card {
+        background-color: var(--light-background-color);
+        width: 20.5rem;
+        height: 18rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .cards-wrapper .second-card {
+        background-color: var(--light-background-color);
+        width: 20.5rem;
+        height: 18rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .description-text {
+        font-size: .87rem;
+        font-weight: 600;
+        color: var(--second-text-color);
+        text-align: center;
+        padding: 1em;
+    }
+
+
+    /* ### OUR DEPARTMENT STYLES ### */
+    .our-department {
+        width: 100vw;
+        height: 51.5rem;
+    }
+
+    /* ### FAQ STYLES ### */
+
+    .faq {
+        height: 57.5rem;
+        width: 100vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq h2 {
+        margin-top: 8rem;
+
+        color: var(--light-text-color);
+
+        font-size: 2.5rem;
+    }
+
+    .faq p {
+        margin-bottom: 5rem;
+
+        text-align: center;
+
+        color: var(--light-text-color);
+
+        font-weight: 600;
+    }
+
+    .faq-cards-wrapper {
+        width: 66.1rem;
+        height: 32rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .faq-card {
+        background-color: #fff;
+
+        height: 9.4rem;
+        width: 20.8rem;
+
+        border-radius: .6rem;
+
+        display: flex;
+        justify-content: center;
+}
+
+    .faq-card p {
+        color: var(--text-color);
+        text-align: left;
+        margin-bottom: .5em;
+        margin-top: .6em;
+    }
+
+    .faq-card span {
+        color: var(--second-text-color);
+    }
+
+    .faq-card aside {
+        height: 8em;
+        width: 14.6em;
+    }
+
+    .card-content-wrapper {
+        width: 16.5rem;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card-content-wrapper img {
+        margin-top: -5.3em;
+    }
+
+    .faq-card-wrapper__first,
+    .faq-card-wrapper__second,
+    .faq-card-wrapper__third {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    /* ### JOIN US SECTION STYLES ### */
+    .join-us {
+        height: 37.1rem;
+        width: 100vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .join-us p {
+        color: var(--alert-text-color);
+        
+        font-weight: 600;
+
+
+        margin-top: 8rem;
+    }
+
+    .join-us h2 {
+        color: var(--light-text-color);
+
+        font-size: 2.4rem;
+
+        text-transform: uppercase;
+    }
+
+    .join-us span {
+        color: var(--light-text-color);
+
+        text-align: center;
+    }
+
+    .form-field-wrapper {
+        width: 43rem;
+        height: 3.6rem;
+
+        border: 1px solid grey;
+
+        display: flex;
+
+        margin-top: 4rem;
+    }
+
+    .form-field-wrapper button {
+        width: 11rem;
+        height: 3.6rem;
+
+        border: 0;
+
+        background-color: var(--primary-color);
+
+        color: var(--light-text-color);
+
+        font-weight: 600;
+
+        cursor: pointer;
+    }
+
+    .form-field-wrapper textarea {
+        width: 35.6rem;
+        height: 3.6rem;
+
+        resize: none;
+
+        border: 0;
+    }
+
+    .form-field-wrapper textarea::placeholder {
+        padding: 1.2rem;
+
+        font-size: 1em;
+    }
+
+    
+    /* ### FOOTER STYLES ### */
+
+    footer {
+        width: 100vw;
+        height: 21.6rem;
+
+        background-color: #FFF;
+    }
+
+    .footer-content-wrapper {
+        width: 65.6rem;
+        height: 16.8rem;
+
+        border: 1px solid red;
+    }
+}
